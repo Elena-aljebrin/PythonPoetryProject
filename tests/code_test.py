@@ -1,6 +1,6 @@
 import pytest
 from project import code
-import re
+
 def test_code():
 
      assert code.is_acceptable_password("short") == False
