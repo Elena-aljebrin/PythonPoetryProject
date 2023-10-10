@@ -6,7 +6,7 @@ authors = ["Elena-aljebrin <elena.al-jebrin.etu@univ-lille.fr>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 pytest = "^7.4.2"
 
 
