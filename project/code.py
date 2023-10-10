@@ -1,3 +1,4 @@
+import re
 def is_acceptable_password(password: str) -> bool:
     unique_chars = set(re.findall(r'[a-zA-Z0-9]', password))
     if len(unique_chars)<3:
