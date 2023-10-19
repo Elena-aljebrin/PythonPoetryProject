@@ -1,0 +1,6 @@
+# Created by pytest automatically.
+file.txt
+secret.key
+logs/
+*.log
+build/*.exe
