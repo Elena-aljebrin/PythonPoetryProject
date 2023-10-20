@@ -87,7 +87,7 @@ jobs:
 
       - name: Run PyLint
         continue-on-error: true
-        run: poetry run ./pylint python_w_poetry, ./tests
+        run: poetry run ./pylint PythonPoetryProject, ./tests
 
       - name: Upload PyLint Report
         uses: actions/upload-artifact@v2
