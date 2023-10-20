@@ -1,5 +1,12 @@
 import re
 def is_acceptable_password(password: str) -> bool:
+    """
+    Check if a password is acceptable based on a specific criteria.
+    Args:
+        password (str): The password to be checked.
+    Returns:
+        bool: True if the password is acceptable, False otherwise.
+        """
     unique_chars = set(re.findall(r'[a-zA-Z0-9]', password))
     if len(unique_chars)<3:
         return False
@@ -9,7 +16,7 @@ def is_acceptable_password(password: str) -> bool:
         return True
     elif str.isnumeric(password):
         return False
-    elif len(password) > 6:        
+    elif len(password) > 6:
         for i in password:
             if str.isdigit(i):
                 return True
