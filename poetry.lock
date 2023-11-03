@@ -767,9 +767,9 @@ socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
 zstd = ["zstandard (>=0.18.0)"]
 
 [extras]
-docs = []
+docs = ["sphinx"]
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "6d194eac67c6604b1291d57588eb69c245249d163b22f702f4ec4c5ae802d2a0"
+content-hash = "6faf24ef5c91bbc2a86f8f177d86de0e593c6364a8b589dcc86ff86e3093f9a0"
